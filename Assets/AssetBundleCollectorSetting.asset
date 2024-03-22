@@ -79,3 +79,15 @@ MonoBehaviour:
       PackRuleName: PackDirectory
       FilterRuleName: CollectScene
       AssetTags: 
+    - CollectPath: Assets/AssetsPackage/Scenes/GameStartScene
+      CollectorType: 0
+      AddressRuleName: AddressByPath
+      PackRuleName: PackDirectory
+      FilterRuleName: CollectScene
+      AssetTags: 
+    - CollectPath: Assets/AssetsPackage/Scenes/GameMainScene
+      CollectorType: 0
+      AddressRuleName: AddressByPath
+      PackRuleName: PackDirectory
+      FilterRuleName: CollectScene
+      AssetTags: 

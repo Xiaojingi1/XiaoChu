@@ -44,7 +44,7 @@ namespace TaoTie
 
         static void StartGame()
         {
-            SceneManager.Instance.SwitchScene<LoginScene>().Coroutine();
+            SceneManager.Instance.SwitchScene<GameStartScene>().Coroutine();
         }
     }
     
