@@ -1,0 +1,820 @@
+fileFormatVersion: 2
+guid: 88ad98705f37e2347a63dbbba55163c1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SuCai_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 869
+        width: 122
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed767f967333bd4d8dce987a19d0e6f
+      internalID: 1671175602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuCai_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 908
+        width: 89
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b416104a334214e9ecc25e7c467eed
+      internalID: -1164761265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuCai_2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 730
+        width: 119
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02af6103a28655e46b4701761f9580f5
+      internalID: -1537266219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuCai_3
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 761
+        width: 87
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: badbc54de69c146459b79138866b8bc0
+      internalID: -1550866928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuCai_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 620
+        width: 100
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b6a4d264c24834a908015443d7367d
+      internalID: 1346571418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuCai_5
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 629
+        width: 104
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0820b4a5db1cee24fa6a4ad20bdf5be9
+      internalID: 43049230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuCai_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 512
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ce4c66a0c61c744b20d3ad03fd1e6a
+      internalID: -2083072435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuCai_7
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 529
+        width: 94
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4acd72644a91243825f566a56adeb6
+      internalID: -1669273025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuCai_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 406
+        width: 100
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45e1b1a98c1e6c4c8cf3ace86d749ef
+      internalID: 1835308187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuCai_9
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 419
+        width: 98
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0e89d207ea63f4f87be551a225cbc7
+      internalID: 161570372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuCai_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 300
+        width: 92
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50b675202d35f44786fbf7fe6f498d1
+      internalID: 773092554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuCai_11
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 306
+        width: 100
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76d972b0dcbce148876c93981e70fc2
+      internalID: -669604159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuCai_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 195
+        width: 94
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea836b51497aba242ba4793b27272c8a
+      internalID: -797697094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuCai_13
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 212
+        width: 97
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17df6988819e2fb42859c5bc52552323
+      internalID: -1521311198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuCai_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 99
+        width: 97
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc84b23285d6ec4e89ebcc7b8a78497
+      internalID: 978977703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuCai_15
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 118
+        width: 92
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb280f40982a3254e88c749a4ea1ec17
+      internalID: 1499348583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuCai_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 95
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395e5724f9832294c817aaeb9f3225f2
+      internalID: 258111501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuCai_17
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 2
+        width: 94
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fef0182745ff024ca9ee565b28e4da0
+      internalID: 1290729133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -82.5, y: -407}
+      - {x: -109.5, y: -426}
+      - {x: -109.5, y: -491}
+      - {x: -108.5, y: -497}
+      - {x: -68.5, y: -504}
+      - {x: -38.5, y: -504}
+      - {x: -10.5, y: -490}
+      - {x: -10.5, y: -407}
+    - - {x: 71.5, y: -407}
+      - {x: 43.5, y: -407}
+      - {x: -3.5, y: -438}
+      - {x: -10.5, y: -460}
+      - {x: -10.5, y: -498}
+      - {x: -7.5, y: -504}
+      - {x: 44.5, y: -504}
+      - {x: 87.5, y: -457}
+      - {x: 87.5, y: -425}
+      - {x: 82.5, y: -418}
+    - - {x: -86.5, y: -311}
+      - {x: -109.5, y: -333}
+      - {x: -109.5, y: -396}
+      - {x: -91.5, y: -407}
+      - {x: -31.5, y: -407}
+      - {x: -8.5, y: -394}
+      - {x: -8.5, y: -311}
+    - - {x: -8.5, y: -294}
+      - {x: -8.5, y: -382}
+      - {x: 0.5, y: -388}
+      - {x: 82.5, y: -388}
+      - {x: 87.5, y: -369}
+      - {x: 87.5, y: -295}
+      - {x: 86.5, y: -294}
+    - - {x: -103.5, y: -206}
+      - {x: -109.5, y: -227}
+      - {x: -109.5, y: -306}
+      - {x: -100.5, y: -311}
+      - {x: -22.5, y: -311}
+      - {x: -15.5, y: -310}
+      - {x: -11.5, y: -283}
+      - {x: -11.5, y: -221}
+      - {x: -33.5, y: -206}
+    - - {x: 32.5, y: -200}
+      - {x: -11.5, y: -245}
+      - {x: -11.5, y: -281}
+      - {x: -10.5, y: -286}
+      - {x: -2.5, y: -294}
+      - {x: 44.5, y: -294}
+      - {x: 89.5, y: -249}
+      - {x: 89.5, y: -204}
+      - {x: 86.5, y: -200}
+    - - {x: -90.5, y: -100}
+      - {x: -109.5, y: -128}
+      - {x: -109.5, y: -168}
+      - {x: -98.5, y: -206}
+      - {x: -13.5, y: -206}
+      - {x: -13.5, y: -152}
+      - {x: -53.5, y: -100}
+    - - {x: 83.5, y: -120}
+      - {x: 58.5, y: -100}
+      - {x: 9.5, y: -100}
+      - {x: -13.5, y: -117}
+      - {x: -13.5, y: -182}
+      - {x: 0.5, y: -200}
+      - {x: 52.5, y: -200}
+      - {x: 90.5, y: -179}
+      - {x: 90.5, y: -143}
+      - {x: 87.5, y: -130}
+    - - {x: -32.5, y: 6}
+      - {x: -77.5, y: 6}
+      - {x: -109.5, y: -9}
+      - {x: -109.5, y: -60}
+      - {x: -87.5, y: -97}
+      - {x: -76.5, y: -100}
+      - {x: -42.5, y: -100}
+      - {x: -10.5, y: -84}
+      - {x: -5.5, y: -68}
+      - {x: -5.5, y: -19}
+    - - {x: 38.5, y: 6}
+      - {x: 2.5, y: -11}
+      - {x: -5.5, y: -34}
+      - {x: -5.5, y: -78}
+      - {x: -2.5, y: -87}
+      - {x: 46.5, y: -87}
+      - {x: 96.5, y: -75}
+      - {x: 96.5, y: 3}
+      - {x: 91.5, y: 6}
+    - - {x: -44.5, y: 114}
+      - {x: -98.5, y: 114}
+      - {x: -109.5, y: 102}
+      - {x: -109.5, y: 26}
+      - {x: -53.5, y: 6}
+      - {x: -3.5, y: 6}
+      - {x: -3.5, y: 67}
+      - {x: -18.5, y: 96}
+    - - {x: 22.5, y: 123}
+      - {x: -3.5, y: 96}
+      - {x: -3.5, y: 60}
+      - {x: 7.5, y: 30}
+      - {x: 22.5, y: 23}
+      - {x: 63.5, y: 23}
+      - {x: 88.5, y: 34}
+      - {x: 94.5, y: 44}
+      - {x: 94.5, y: 100}
+      - {x: 82.5, y: 123}
+    - - {x: -96.5, y: 224}
+      - {x: -109.5, y: 202}
+      - {x: -109.5, y: 164}
+      - {x: -52.5, y: 114}
+      - {x: -32.5, y: 114}
+      - {x: -16.5, y: 119}
+      - {x: -5.5, y: 133}
+      - {x: -5.5, y: 163}
+      - {x: -52.5, y: 224}
+    - - {x: 91.5, y: 223}
+      - {x: 83.5, y: 224}
+      - {x: 4.5, y: 224}
+      - {x: -5.5, y: 217}
+      - {x: -5.5, y: 136}
+      - {x: 18.5, y: 126}
+      - {x: 25.5, y: 123}
+      - {x: 74.5, y: 123}
+      - {x: 102.5, y: 150}
+      - {x: 102.5, y: 198}
+      - {x: 99.5, y: 205}
+    - - {x: -102.5, y: 363}
+      - {x: -109.5, y: 357}
+      - {x: -109.5, y: 231}
+      - {x: -103.5, y: 224}
+      - {x: 6.5, y: 224}
+      - {x: 13.5, y: 230}
+      - {x: 13.5, y: 356}
+      - {x: 7.5, y: 363}
+    - - {x: 24.5, y: 363}
+      - {x: 13.5, y: 359}
+      - {x: 13.5, y: 255}
+      - {x: 75.5, y: 255}
+      - {x: 104.5, y: 301}
+      - {x: 104.5, y: 351}
+      - {x: 84.5, y: 363}
+    - - {x: 14.5, y: 504}
+      - {x: -99.5, y: 504}
+      - {x: -109.5, y: 503}
+      - {x: -109.5, y: 374}
+      - {x: -102.5, y: 366}
+      - {x: -98.5, y: 363}
+      - {x: 5.5, y: 363}
+      - {x: 16.5, y: 368}
+      - {x: 16.5, y: 500}
+    - - {x: 16.5, y: 504}
+      - {x: 16.5, y: 459}
+      - {x: 60.5, y: 402}
+      - {x: 95.5, y: 402}
+      - {x: 109.5, y: 419}
+      - {x: 109.5, y: 439}
+      - {x: 79.5, y: 504}
+    physicsShape:
+    - - {x: -104.5, y: -409}
+      - {x: -107.5, y: -431}
+      - {x: -107.5, y: -491}
+      - {x: -92.5, y: -504}
+      - {x: -24.5, y: -504}
+      - {x: -12.5, y: -489}
+      - {x: -12.5, y: -409}
+    - - {x: 18.5, y: -409}
+      - {x: -8.5, y: -471}
+      - {x: -8.5, y: -502}
+      - {x: 15.5, y: -502}
+      - {x: 36.5, y: -498}
+      - {x: 62.5, y: -483}
+      - {x: 85.5, y: -454}
+      - {x: 85.5, y: -409}
+    - - {x: -16.5, y: -311}
+      - {x: -32.5, y: -312}
+      - {x: -89.5, y: -317}
+      - {x: -107.5, y: -327}
+      - {x: -107.5, y: -390}
+      - {x: -101.5, y: -405}
+      - {x: -43.5, y: -405}
+      - {x: -22.5, y: -397}
+      - {x: -10.5, y: -337}
+      - {x: -10.5, y: -316}
+      - {x: -14.5, y: -311}
+    - - {x: 81.5, y: -294}
+      - {x: -3.5, y: -294}
+      - {x: -8.5, y: -305}
+      - {x: -8.5, y: -347}
+      - {x: -4.5, y: -381}
+      - {x: 3.5, y: -388}
+      - {x: 78.5, y: -388}
+      - {x: 84.5, y: -375}
+      - {x: 87.5, y: -359}
+      - {x: 87.5, y: -302}
+    - - {x: -45.5, y: -206}
+      - {x: -83.5, y: -206}
+      - {x: -106.5, y: -220}
+      - {x: -107.5, y: -227}
+      - {x: -107.5, y: -297}
+      - {x: -98.5, y: -311}
+      - {x: -13.5, y: -311}
+      - {x: -13.5, y: -217}
+      - {x: -28.5, y: -211}
+    - - {x: 85.5, y: -200}
+      - {x: 35.5, y: -200}
+      - {x: -9.5, y: -229}
+      - {x: -9.5, y: -287}
+      - {x: 0.5, y: -292}
+      - {x: 43.5, y: -292}
+      - {x: 86.5, y: -262}
+      - {x: 87.5, y: -257}
+      - {x: 87.5, y: -202}
+    - - {x: -98.5, y: -102}
+      - {x: -107.5, y: -113}
+      - {x: -107.5, y: -172}
+      - {x: -85.5, y: -206}
+      - {x: -30.5, y: -206}
+      - {x: -20.5, y: -203}
+      - {x: -15.5, y: -189}
+      - {x: -15.5, y: -155}
+      - {x: -53.5, y: -102}
+    - - {x: 11.5, y: -198}
+      - {x: 59.5, y: -198}
+      - {x: 88.5, y: -187}
+      - {x: 88.5, y: -102}
+      - {x: 8.5, y: -102}
+      - {x: -11.5, y: -109}
+      - {x: -11.5, y: -168}
+    - - {x: -15.5, y: -8}
+      - {x: -27.5, y: 4}
+      - {x: -81.5, y: 4}
+      - {x: -109.5, y: -8}
+      - {x: -109.5, y: -58}
+      - {x: -97.5, y: -91}
+      - {x: -76.5, y: -100}
+      - {x: -48.5, y: -100}
+      - {x: -18.5, y: -76}
+      - {x: -7.5, y: -63}
+      - {x: -7.5, y: -36}
+    - - {x: 79.5, y: 4}
+      - {x: 43.5, y: 4}
+      - {x: 5.5, y: -10}
+      - {x: -3.5, y: -32}
+      - {x: -3.5, y: -74}
+      - {x: 9.5, y: -85}
+      - {x: 43.5, y: -85}
+      - {x: 71.5, y: -77}
+      - {x: 96.5, y: -45}
+      - {x: 96.5, y: -21}
+      - {x: 93.5, y: -10}
+    - - {x: -107.5, y: 44}
+      - {x: -60.5, y: 8}
+      - {x: -5.5, y: 8}
+      - {x: -5.5, y: 66}
+      - {x: -30.5, y: 112}
+      - {x: -94.5, y: 112}
+      - {x: -107.5, y: 100}
+    - - {x: 30.5, y: 121}
+      - {x: -1.5, y: 89}
+      - {x: -1.5, y: 59}
+      - {x: 9.5, y: 29}
+      - {x: 18.5, y: 25}
+      - {x: 65.5, y: 25}
+      - {x: 89.5, y: 36}
+      - {x: 92.5, y: 38}
+      - {x: 92.5, y: 106}
+      - {x: 87.5, y: 121}
+    - - {x: -107.5, y: 222}
+      - {x: -107.5, y: 146}
+      - {x: -52.5, y: 116}
+      - {x: -26.5, y: 116}
+      - {x: -5.5, y: 137}
+      - {x: -5.5, y: 158}
+      - {x: -47.5, y: 222}
+    - - {x: -5.5, y: 224}
+      - {x: -5.5, y: 124}
+      - {x: -3.5, y: 123}
+      - {x: 75.5, y: 123}
+      - {x: 102.5, y: 143}
+      - {x: 102.5, y: 211}
+      - {x: 66.5, y: 224}
+    - - {x: 34.5, y: 361}
+      - {x: 16.5, y: 339}
+      - {x: 15.5, y: 330}
+      - {x: 15.5, y: 262}
+      - {x: 18.5, y: 257}
+      - {x: 80.5, y: 257}
+      - {x: 102.5, y: 266}
+      - {x: 102.5, y: 361}
+    - - {x: -106.5, y: 502}
+      - {x: -107.5, y: 500}
+      - {x: -107.5, y: 365}
+      - {x: 12.5, y: 365}
+      - {x: 14.5, y: 371}
+      - {x: 14.5, y: 502}
+    - - {x: 64.5, y: 504}
+      - {x: 24.5, y: 504}
+      - {x: 16.5, y: 490}
+      - {x: 16.5, y: 465}
+      - {x: 58.5, y: 404}
+      - {x: 97.5, y: 404}
+      - {x: 107.5, y: 416}
+      - {x: 107.5, y: 438}
+      - {x: 79.5, y: 498}
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SuCai_1: -1164761265
+      SuCai_5: 43049230
+      SuCai_7: -1669273025
+      SuCai_14: 978977703
+      SuCai_4: 1346571418
+      SuCai_2: -1537266219
+      SuCai_3: -1550866928
+      SuCai_6: -2083072435
+      SuCai_13: -1521311198
+      SuCai_0: 1671175602
+      SuCai_11: -669604159
+      SuCai_10: 773092554
+      SuCai_12: -797697094
+      SuCai_15: 1499348583
+      SuCai_16: 258111501
+      SuCai_17: 1290729133
+      SuCai_9: 161570372
+      SuCai_8: 1835308187
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

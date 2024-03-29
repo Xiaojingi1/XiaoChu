@@ -26,6 +26,7 @@ namespace TaoTie
         public async ETTask OnEnter()
         {
             win = await UIManager.Instance.OpenWindow<UILoadingView>(UILoadingView.PrefabPath);
+           
             win.SetProgress(0);
         }
 
@@ -36,7 +37,8 @@ namespace TaoTie
 
         public async ETTask OnPrepare()
         {
-            await ETTask.CompletedTask;
+            //await UIManager.Instance.OpenWindow<GameView>(GameView.PrefabPath,UILayerNames.BackgroudLayer);;
+            //await ETTask.CompletedTask;
         }
 
         public async ETTask OnComplete()
@@ -47,6 +49,7 @@ namespace TaoTie
         public async ETTask SetProgress(float value)
         {
             win.SetProgress(value);
+            
             await ETTask.CompletedTask;
         }
 
@@ -59,6 +62,7 @@ namespace TaoTie
         {
             //await UIManager.Instance.OpenWindow<UIMainView>(UIMainView.PrefabPath);
             await UIManager.Instance.CloseWindow<UILoadingView>();
+            
             //await UIManager.Instance.OpenWindow<UIGameStartView>(UIGameStartView.PrefabPath);
             //win = null;
         }
