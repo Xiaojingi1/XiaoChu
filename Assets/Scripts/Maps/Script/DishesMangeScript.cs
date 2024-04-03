@@ -14,7 +14,7 @@ public class DishesMangeScript : MonoBehaviour
     {
         for (int i = 0; i < Dishess.Length; i++)
         {
-            DishessAdd(UnityEngine.Random.Range(0,10));
+            DishessAdd(UnityEngine.Random.Range(0, 10));
         }
     }
 
@@ -30,8 +30,9 @@ public class DishesMangeScript : MonoBehaviour
         CookBook ck = new CookBook();
         ck.Id = index;
         ck.Dishess = CookBookCategory.Instance.Get(index).Batching;
+        ck.DishesBL = new bool[Dishess.Length];
         Play.Instance.DishesList.Add(ck);
-        DishessRefresh();
+        DishessReveal(Play.Instance.DishesList.Count - 1);
     }
 
     public void DishessRemove(CookBook book)
@@ -42,25 +43,46 @@ public class DishesMangeScript : MonoBehaviour
 
     public void DishessRefresh()
     {
-        for(int i = 0;i < Play.Instance.DishesList.Count; i++)
+        for (int i = 0; i < Dishess.Length; i++)
         {
-            Dishess[i].DishesReveal(Play.Instance.DishesList[i]);
+            if (i < Play.Instance.DishesList.Count && Dishess[i].current != null)
+            {
+                Dishess[i].Refresh(Play.Instance.DishesList[i]);
+            }
+            else
+            {
+                Dishess[i].current.SetActive(false);
+            }
+
         }
+    }
+
+    public void DishessReveal(int index)
+    {
+        Dishess[index].Reveal(Play.Instance.DishesList[index]);
     }
 
     public void Achieve(int index)
     {
+        bool bl;
         for (int i = 0; i < Play.Instance.DishesList.Count; i++)
         {
             for (int j = 0; j < Play.Instance.DishesList[i].Dishess.Length; j++)
             {
                 if (Play.Instance.DishesList[i].Dishess[j] == index)
                 {
-                    if (Dishess[i].DishesAchieve(index))
+                    if (Dishess[i].DishesAchieve(index, out bl))
                     {
                         DishessRemove(Dishess[i].cookBook);
+
                     }
-                    return;
+
+
+                    if (!bl)
+                    {
+                        return;
+                    }
+
                 }
             }
 

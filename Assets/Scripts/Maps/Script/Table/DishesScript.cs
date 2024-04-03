@@ -8,8 +8,7 @@ using UnityEngine;
 public class DishesScript : MonoBehaviour
 {
     public GameObject[] Material;
-    GameObject current;
-    bool[] materialbBl;
+    public GameObject current;
     public CookBook cookBook;
     // Start is called before the first frame update
 
@@ -17,46 +16,53 @@ public class DishesScript : MonoBehaviour
     {
 
     }
-    public void DishesReveal(CookBook cookBook)
+    public void Reveal(CookBook cookBook)
     {
-        if (current != null)
-        {
-            current.SetActive(false);
-        }
-
         this.cookBook = cookBook;
-        
-        current = Material[cookBook.Dishess.Length - 1];
-        current.SetActive(true);
 
-        materialbBl = new bool[cookBook.Dishess.Length];
-
+        GetCurrent();
 
         for (int i = 0; i < current.transform.childCount; i++)
         {
-            try
-            {
-                current.transform.GetChild(i).GetChild(0).GetComponent<SpriteRenderer>().sprite = ResourcesManager.Instance.Load<Sprite>("Sprites/food/png/" + IngredientCategory.Instance.Get(cookBook.Dishess[i]).IconName + ".png");
-            }
-            catch (Exception)
-            {
+            current.transform.GetChild(i).GetChild(0).GetComponent<SpriteRenderer>().sprite = ResourcesManager.Instance.Load<Sprite>("Sprites/food/png/" + IngredientCategory.Instance.Get(cookBook.Dishess[i]).IconName + ".png");
 
-                Log.Debug(cookBook.Dishess.Length + "______");
-            }
-           
-            materialbBl[i] = true;
+            cookBook.DishesBL[i] = true;
         }
     }
 
-    public bool DishesAchieve(int index)
+    public void Refresh(CookBook cookBook)
     {
-        for (int i = 0; i < cookBook.Dishess.Length; i++)
+        this.cookBook = cookBook;
+
+        GetCurrent();
+
+        for (int i = 0; i < current.transform.childCount; i++)
         {
-            if (cookBook.Dishess[i] == index)
+            current.transform.GetChild(i).GetChild(0).GetComponent<SpriteRenderer>().sprite = ResourcesManager.Instance.Load<Sprite>("Sprites/food/png/" + IngredientCategory.Instance.Get(cookBook.Dishess[i]).IconName + ".png");
+
+            if (cookBook.DishesBL[i])
+            {
+                current.transform.GetChild(i).GetChild(1).gameObject.SetActive(false);
+            }
+            else
             {
                 current.transform.GetChild(i).GetChild(1).gameObject.SetActive(true);
-                materialbBl[i] = false;
-                if (!materialbBl.Contains(true))
+            }
+        }
+    }
+
+
+    public bool DishesAchieve(int index, out bool bl)
+    {
+        bl = true;
+        for (int i = 0; i < cookBook.Dishess.Length; i++)
+        {
+            if (cookBook.Dishess[i] == index && cookBook.DishesBL[i])
+            {
+                current.transform.GetChild(i).GetChild(1).gameObject.SetActive(true);
+                cookBook.DishesBL[i] = false;
+                bl = false;
+                if (!cookBook.DishesBL.Contains(true))
                 {
                     return true;
                 }
@@ -69,4 +75,14 @@ public class DishesScript : MonoBehaviour
         return false;
     }
 
+    void GetCurrent()
+    {
+        if (current != null)
+        {
+            current.SetActive(false);
+        }
+
+        current = Material[cookBook.Dishess.Length - 1];
+        current.SetActive(true);
+    }
 }
