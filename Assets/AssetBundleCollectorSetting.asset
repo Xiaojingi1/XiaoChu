@@ -72,7 +72,7 @@ MonoBehaviour:
       CollectorType: 0
       AddressRuleName: AddressByPath
       PackRuleName: PackDirectory
-      FilterRuleName: CollectAll
+      FilterRuleName: CollectSprite
       AssetTags: 
   - GroupName: GameAssets
     GroupDesc: "\u6E38\u620F\u8D44\u6E90"

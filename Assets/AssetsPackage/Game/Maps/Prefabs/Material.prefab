@@ -104,7 +104,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.22, y: 1.37}
+    oldSize: {x: 1.26, y: 1.39}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -127,7 +127,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BeAffectedMaterials: []
   AffectedMaterials: []
-  shadow: {fileID: 0}
+  shadow: {fileID: 4171947417181047537}
+  prepareFoodArea: {fileID: 0}
+  x: 0
+  y: 0
+  index: 0
+  prepareFoodAreaScript: {fileID: 0}
 --- !u!1 &4171947417181047537
 GameObject:
   m_ObjectHideFlags: 0
@@ -153,8 +158,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4171947417181047537}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
+  m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6085166743169704314}

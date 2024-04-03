@@ -5,24 +5,21 @@ using UnityEngine;
 
 public class MaterialScript : MonoBehaviour
 {
-    public List<MaterialScript> BeAffectedMaterials;//被那些方格影响
-    public List<MaterialScript> AffectedMaterials;//影响那些方格
+    public List<MaterialScript> BeAffectedMaterials = new List<MaterialScript>();//被那些方格影响
+    public List<MaterialScript> AffectedMaterials = new List<MaterialScript>();//影响那些方格
     public GameObject shadow;
+    public GameObject prepareFoodArea;
+    public int x, y;
+    public int index;
+
+    public PrepareFoodAreaScript prepareFoodAreaScript;
 
 
-    private void OnEnable()
-    {
-        MaterialInit();
-    }
+    /// <summary>
+    ///  移除影响自己的方格
+    /// </summary>
+    /// <param name="beAffected"></param>
 
-    private void MaterialInit()
-    {
-        BeAffectedMaterials = new List<MaterialScript>();
-        AffectedMaterials = new List<MaterialScript>();
-
-    }
-
-    //移除影响自己的方格
     public void RemoveBeAffected(MaterialScript beAffected)
     {
         BeAffectedMaterials.Remove(beAffected);
@@ -37,7 +34,11 @@ public class MaterialScript : MonoBehaviour
         }
     }
 
-    //添加影响自己的方格
+    /// <summary>
+    ///  添加影响自己的方格
+    /// </summary>
+    /// <param name="beAffected"></param>
+
     public void AddBeAffected(MaterialScript beAffected)
     {
         BeAffectedMaterials.Add(beAffected);
@@ -47,24 +48,33 @@ public class MaterialScript : MonoBehaviour
             shadow.SetActive(true);
             transform.tag = "NotMaterial";
         }
-        
+
     }
 
-    //添加自己影响的方格
+    /// <summary>
+    /// 添加自己影响的方格
+    /// </summary>
+    /// <param name="beAffected"></param>
     public void AddAffectedAffected(MaterialScript beAffected)
     {
         AffectedMaterials.Add(beAffected);
         beAffected.AddBeAffected(this);
     }
 
-    //自身被点击后触发方法
+    /// <summary>
+    /// 自身被点击后触发方法
+    /// </summary>
     public void OnClick()
     {
-        for (int i = 0; i < AffectedMaterials.Count; i++)
+        if (Play.Instance.PrepareFood.Count < 9)
         {
-            AffectedMaterials[i].RemoveBeAffected(this);
-        }
+            for (int i = 0; i < AffectedMaterials.Count; i++)
+            {
+                AffectedMaterials[i].RemoveBeAffected(this);
+            }
 
-        GameObjectPoolManager.Instance.RecycleGameObject(gameObject);
+            prepareFoodAreaScript.AddMaterial(index);
+            GameObjectPoolManager.Instance.RecycleGameObject(gameObject);
+        }
     }
 }
